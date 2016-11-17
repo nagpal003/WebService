@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.hp.webservice.MainActivity">
+
+    <Button
+        android:id="@+id/btn_fetch_weather"
+        android:layout_width="100dp"
+        android:text="@string/fetch_data"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:hint="@string/data_received"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btn_fetch_weather"
+        android:layout_alignStart="@+id/btn_fetch_weather" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="60dp"
+        android:id="@+id/editText2"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:hint="@string/enter_the_url" />
+</RelativeLayout>
+

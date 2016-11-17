@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WebService</string>
+
+    <string name="data_received">Data Received</string>
+    <string name="d">No Connections Available</string>
+    <string name="fetch_data">Fetch Data</string>
+    <string name="enter_the_url">Enter the url</string>
+</resources>
